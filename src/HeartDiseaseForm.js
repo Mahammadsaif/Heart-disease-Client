@@ -31,7 +31,7 @@ function HeartDiseaseForm() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('https://heart-disease-api-fawn.vercel.app/predict', formData);
+            const response = await axios.post('http://127.0.0.1:5000/predict', formData);
             setResult(response.data.message);
         } catch (error) {
             console.error("There was an error!", error);
@@ -113,7 +113,7 @@ function HeartDiseaseForm() {
             {result && <h2 className={result.includes("does not") ? "error" : ""}>Prediction Result: {result}</h2>}
 
             <footer>
-                <p>Made with ❤️ by [Saif Shaik]</p>
+                <p>Made with ❤️ by Saif Shaik</p>
             </footer>
         </div>
     );

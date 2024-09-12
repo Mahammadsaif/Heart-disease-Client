@@ -1,0 +1,48 @@
+/* src/components/HomePage.css */
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light background */
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #ffffff, #dcdcdc); /* Gradient background */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #8b0000; /* Dark red */
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+}
+
+.heart-image {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.start-button {
+    background-color: #8b0000; /* Red button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: #a00000; /* Slightly darker red on hover */
+}
+
+.note {
+    margin-top: 20px;
+    color: #555;
+    font-style: italic;
+}

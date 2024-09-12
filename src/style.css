@@ -79,14 +79,14 @@ button:hover {
 
 h2 {
     text-align: center;
-    color: #66a6ff;
+    color: red;
     margin-top: 20px;
     font-size: 22px;
     font-weight: bold;
 }
 
 h2.error {
-    color: red;
+    color: white;
     font-weight: bold;
 }
 
